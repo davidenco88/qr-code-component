@@ -1,0 +1,39 @@
+.card-container
+{
+    margin: 50px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card
+{
+    width: 300px;
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 15px;
+    margin: 100px 20px;
+    background-color: white;
+}
+
+.card__qr-img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.primary-text
+{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+}
+
+.secondary-text
+{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
